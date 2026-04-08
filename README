@@ -35,3 +35,11 @@ releases starting with 4.9.
 
 This repository is provided "as is" with no guarantees. Use the contents on
 your own risk.
+
+This is fork patch for VMWare-workstation 17.6.0 linux 
+Tested on Fedora 43 kernel 6.19.10
+run command after git clone:
+sudo make
+sudo make install
+sudo modprobe vmmon
+sudo modprobe vmnet
